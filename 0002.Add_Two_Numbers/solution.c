@@ -14,22 +14,6 @@ struct ListNode
     struct ListNode *next;
 };
 
-unsigned int getNumber(struct ListNode* num)
-{
-    int ret = 0;
-    struct ListNode *tmp = num;
-
-    int stage = 1;
-
-    while (tmp)
-    {
-        ret += tmp->val * stage;
-        tmp = tmp->next;
-        stage *= 10;
-    }
-    return ret;
-}
-
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2)
 {
     struct ListNode *ret, *tmp, *last;
