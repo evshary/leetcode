@@ -1,0 +1,1 @@
+1. The answer in 0001.Two_Sum is sorting before finding the answer. Therefore we can use the same way without sorting array by ourselves in the question.
