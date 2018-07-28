@@ -1,0 +1,3 @@
+1. We should not assume that array is sorted.
+2. Although sorting array may decrease running time, we may need  the index of origin array, not the index of sorted array.
+3. It's possible to decrease time complexity by increasing space complexity. Use hash table to save number, and we can check whether the complement of each number exists or not. Ref:[1. Two Sum: solution](https://leetcode.com/articles/two-sum/)
