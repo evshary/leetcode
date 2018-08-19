@@ -1,0 +1,1 @@
+1. Use state array and corresponding index to solve the problem.
