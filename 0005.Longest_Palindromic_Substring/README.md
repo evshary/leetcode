@@ -1,0 +1,2 @@
+1. I wrote brute force and DP version for the problem. It's suggested to draw DP table to realize the algorithm.
+2. Always remember using dynamic array after checking the array length(should not be 0).
