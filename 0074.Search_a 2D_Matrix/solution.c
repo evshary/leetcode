@@ -34,16 +34,6 @@ void initMatrix(int row_size, int col_size, int origin_matrix[row_size][col_size
     }
 }
 
-void printGraph(int **graph, int row_size, int *col_size) {
-    for (int i = 0; i < row_size; i++) {
-        printf("[");
-        for (int j = 0; j < col_size[i]; j++) {
-            printf("%d ", graph[i][j]);
-        }
-        printf("]\n");
-    }
-}
-
 int main()
 {
     int **matrix;

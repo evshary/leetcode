@@ -1,0 +1,2 @@
+1. If I use divide and conquer without memoization, it takes too long to calculate the result.
+2. Using DP to solve the problem is much faster. However it's important to think of using A to save the temparory value. The key point is the min path to get A[i][j] is min(A[i-1][j-1], A[i-1][j], A[i-1][j+1]).
