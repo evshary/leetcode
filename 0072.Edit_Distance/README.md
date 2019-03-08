@@ -1,0 +1,2 @@
+1. The most important is to find out how to split the problem into subproblems. Then we can use DP to record answer of subproblem.
+2. Be careful the `#define min(x,y) (((x)<(y))?(x):(y))`. You should add () outside the `((x)<(y))?(x):(y)`, or the result may be wrong.
