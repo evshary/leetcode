@@ -1,0 +1,1 @@
+1. The main idea is using window sliding and hash table.
