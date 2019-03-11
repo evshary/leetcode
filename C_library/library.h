@@ -7,6 +7,7 @@ struct TreeNode {
     struct TreeNode *right;
 };
 
+struct TreeNode* genTreeFromArray(int *array, int arraySize, int NULL_int);
 void printTreeNodes(struct TreeNode* tree);
 void freeTreeNodes(struct TreeNode* tree);
 

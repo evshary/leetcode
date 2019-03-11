@@ -1,0 +1,1 @@
+1. The main idea is to use stack while recursion is not available.
