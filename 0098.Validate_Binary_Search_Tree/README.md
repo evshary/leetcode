@@ -1,0 +1,1 @@
+1. The min and max node in the subtree should be concerned. Your left node value cannot be less than min node, and right node value cannot be higher than max node.
