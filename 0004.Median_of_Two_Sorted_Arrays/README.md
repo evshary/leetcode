@@ -1,0 +1,1 @@
+1. Actually, I've not solved the problem yet. My solution is O(m+n) not O(log(m+n)).
