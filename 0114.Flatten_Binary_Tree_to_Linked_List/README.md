@@ -1,0 +1,1 @@
+1. The last node(retNode) should be record. It helps us to put the right node on it.
