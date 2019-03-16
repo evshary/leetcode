@@ -1,0 +1,1 @@
+1. Pay attention to the definition of balanced tree, and check different special cases carefully.
