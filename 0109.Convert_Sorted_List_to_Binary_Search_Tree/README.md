@@ -1,0 +1,1 @@
+1. No need to transform list into array. We can build the tree from the smallest one.

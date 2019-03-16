@@ -2,7 +2,39 @@
 #include <stdlib.h>
 #include "library.h"
 
-int Tree2Array(struct TreeNode* array[], int array_size) {
+struct ListNode* genListFromArray(int *array, int arraySize) {
+    if (array == NULL || arraySize == 0)
+        return 0;
+    struct ListNode *list = malloc(sizeof(struct ListNode));
+    list->val = array[0];
+    struct ListNode *ptr = list;
+    for (int i = 1; i < arraySize; i++) {
+        ptr->next = malloc(sizeof(struct ListNode));
+        ptr = ptr->next;
+        ptr->val = array[i];
+        ptr->next = NULL;
+    }
+    return list;
+}
+
+void printList(struct ListNode* list) {
+    while(list != NULL) {
+        printf("%d ", list->val);
+        list = list->next;
+    }
+    printf("\n");
+}
+
+void freeList(struct ListNode* list) {
+    struct ListNode *ptr = list;
+    while(list != NULL) {
+        ptr = list;
+        list = list->next;
+        free(ptr);
+    }
+}
+
+static int Tree2Array(struct TreeNode* array[], int array_size) {
     if (array == NULL)
         return 0;
     struct TreeNode* tree;
