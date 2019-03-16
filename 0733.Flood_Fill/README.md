@@ -1,0 +1,1 @@
+1. Consider the case origin_color == new_color. It'll break our stop condition.
