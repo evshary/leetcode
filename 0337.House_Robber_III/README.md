@@ -1,0 +1,2 @@
+1. This answer is not max(odd_depth_sum, even_depth_sum). We can take right node and no left node.
+2. While using recursion, don't call too much function. Limit the number of calling itself, or time complexity will be horrible.

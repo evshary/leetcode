@@ -1,6 +1,8 @@
 #ifndef _LIBRARY_C_
 #define _LIBRARY_C_
 
+#define ARRAY_SIZE(__array) (sizeof(__array)/sizeof(__array[0]))
+
  struct ListNode {
      int val;
      struct ListNode *next;
