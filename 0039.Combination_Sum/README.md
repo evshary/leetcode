@@ -1,0 +1,1 @@
+1. If you want to solve the problem with C, you should implement the data structure such as vector, or it'll be difficult.
