@@ -1,0 +1,1 @@
+1. First of all, we should find the rule of how to rotate matrix. Then, it's important to get the correct index for element in matrix.
