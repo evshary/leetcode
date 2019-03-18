@@ -1,0 +1,1 @@
+1. It's simple to use python to implement. However you should understand the concept of collections.defaultdict and then using adjacent matrix.
