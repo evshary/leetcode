@@ -1,0 +1,1 @@
+1. I think I need to be familiar with graph algorithm like Dijkstra Algorithm.
