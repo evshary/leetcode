@@ -7,6 +7,7 @@ struct ListNode* genListFromArray(int *array, int arraySize) {
         return 0;
     struct ListNode *list = malloc(sizeof(struct ListNode));
     list->val = array[0];
+    list->next = NULL;
     struct ListNode *ptr = list;
     for (int i = 1; i < arraySize; i++) {
         ptr->next = malloc(sizeof(struct ListNode));
