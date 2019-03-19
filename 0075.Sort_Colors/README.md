@@ -1,0 +1,2 @@
+1. Remember array initialization can't use `int array[5] = {number};`, unless number == 0.
+  - Ref: https://stackoverflow.com/questions/201101/how-to-initialize-all-members-of-an-array-to-the-same-value
