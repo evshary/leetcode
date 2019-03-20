@@ -1,0 +1,1 @@
+1. The priority of *(dereference) is lower than index. Therefore, we need (*array)[n] instead of *array[n]. 
