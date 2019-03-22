@@ -1,0 +1,1 @@
+1. You should be familiar with Truth Table, and use ternary number system to achieve XOR three times and get 0.
