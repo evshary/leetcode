@@ -1,0 +1,1 @@
+1. We should find out the formula of getting the start of circle.
