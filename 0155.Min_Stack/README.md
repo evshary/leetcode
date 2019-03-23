@@ -1,0 +1,1 @@
+1. We should make sure all the operation should be const time. Therefore, we need extra space to save the result of minimum.
