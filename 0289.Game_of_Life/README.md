@@ -1,0 +1,2 @@
+1. While we want to get the next state in place, we should find somewhere to save the tmp result. The board is int, but only use 0 and 1 only. I think we can use the second bit to represent the next state.
+2. Be careful the calculation of border, not to access out of board.
