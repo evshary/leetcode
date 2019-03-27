@@ -1,0 +1,1 @@
+1. The important of the problem is that we can divide the array into two group, which the number only occurs once can be found in each group.
