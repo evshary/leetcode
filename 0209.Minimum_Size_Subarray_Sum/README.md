@@ -1,0 +1,1 @@
+1. While the problems comes with contiguous subarray, we should think of sliding windows/2 pointer.
