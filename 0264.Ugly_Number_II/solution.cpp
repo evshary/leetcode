@@ -3,7 +3,27 @@
 #include <map>
 using namespace std;
 
-#if 1
+#if 1 /* Using DP */
+class Solution {
+public:
+    int nthUglyNumber(int n) {
+        if (nums.empty()) {
+            nums.push_back(1);
+            idxs = {0, 0, 0};
+        }
+        while(nums.size() < n) {
+            nums.push_back(min(nums[idxs[0]] * 2, min(nums[idxs[1]] * 3, nums[idxs[2]] * 5)));
+            if (nums.back() == nums[idxs[0]] * 2) idxs[0]++;
+            if (nums.back() == nums[idxs[1]] * 3) idxs[1]++;
+            if (nums.back() == nums[idxs[2]] * 5) idxs[2]++;
+        }
+        return nums[n-1];
+    }
+private:
+    vector<int> nums;
+    vector<int> idxs; /* index for 2, 3, 5 */
+};
+#elif 1 /* Other solution */
 #define INSERT(N) \
             do { \
                 if (INT_MAX/N < nums[valid_n-1]) break; \
