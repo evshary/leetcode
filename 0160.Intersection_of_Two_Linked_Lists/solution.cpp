@@ -7,7 +7,25 @@ struct ListNode {
      ListNode(int x) : val(x), next(NULL) {}
  };
 
-#if 1
+#if 1 // genious!!!
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode *ptrA = headA, *ptrB = headB;
+        while (ptrA != ptrB) {
+            if (ptrA == NULL)
+                ptrA = headB;
+            else
+                ptrA = ptrA->next;
+            if (ptrB == NULL)
+                ptrB = headA;
+            else
+                ptrB = ptrB->next;
+        }
+        return ptrA;
+    }
+};
+#elif 1 // count the size
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
