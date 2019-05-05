@@ -1,0 +1,1 @@
+1. The key to solve this problem is use two variables: cmax, cmin. Track the max and min and we can swap while negative number.
