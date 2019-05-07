@@ -1,0 +1,2 @@
+1. We know the problems should be sovled with recursion. However the key part is what kind of return type we use.
+2. We can use bool to record whether there are node we want. When there are two true in left, current, right, it's the answer.
