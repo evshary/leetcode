@@ -1,0 +1,2 @@
+1. While it comes to dynamic table, if we can't think of how to get the N answer from N-1 answer, try to think of get N answer from both N-1 and N-2 answer.
+2. For dynamic table, we can reduce the space complexity if the some part of table is not used. For example, we only needs the result of the last two variables, so it's fine to forget the whole array.
