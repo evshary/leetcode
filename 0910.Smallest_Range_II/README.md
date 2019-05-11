@@ -1,0 +1,3 @@
+1. We can convert -K~K into 0~2K. This is better for our thinking.
+2. We know that the smaller element should be added 2K and the larger element should be added zero. However, we need to find out a certain number to add 2K on number smaller than it and add 0 on number larger than it.
+3. We don't need to find the number with math formula. Just try it. Assume the result is largest - smallest in original array. Then we can try to add 2*K on each number and find out which is the exact result.
