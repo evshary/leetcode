@@ -1,0 +1,1 @@
+1. Try to take more examples and see the discover the law of this questions.
