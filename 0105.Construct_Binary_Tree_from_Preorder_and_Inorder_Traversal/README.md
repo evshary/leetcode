@@ -1,0 +1,1 @@
+1. The key point is that preorder is middle->left->right, and inorder is left->middle->right. The middle and left is reverse between preorder and inorder.
