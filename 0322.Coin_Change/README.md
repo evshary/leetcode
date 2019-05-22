@@ -1,0 +1,3 @@
+1. Although finding out a solution, I still need to think of other possibility.
+  - Try dynamic table, different structure....
+2. I should make sure the example I take can cover the special case.
