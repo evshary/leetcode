@@ -1,0 +1,1 @@
+1. Check the condition of problems, and we can use array instead of hash table.
