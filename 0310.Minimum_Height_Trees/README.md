@@ -1,0 +1,2 @@
+1. Using DFS on each node takes too much time, we can think the problem in different way.
+2. We remove the node from the leaf, and find out the node left is the root of minimum height tree. This way is BFS.
