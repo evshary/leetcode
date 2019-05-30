@@ -1,0 +1,1 @@
+1. Using fast/slow pointer is a better way.
