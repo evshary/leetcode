@@ -1,0 +1,1 @@
+1. We can use positive and negative to record whether a number exist or not.
