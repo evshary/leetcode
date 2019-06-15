@@ -1,0 +1,1 @@
+1. The key point is the order of direction, and what I should do while changing the direction.
