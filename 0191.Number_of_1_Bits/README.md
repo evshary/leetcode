@@ -1,0 +1,1 @@
+1. We can remove the last bit in a number by `n&=(n-1)`.
