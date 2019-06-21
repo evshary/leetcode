@@ -1,0 +1,1 @@
+1. Remember that we should not use strlen in for loop (Not the init part).
