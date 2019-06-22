@@ -1,0 +1,2 @@
+1. Using unused number can't work since I don't know which number is unused.
+2. The key point is that we should reserve the first row/column and record whether this row/column should be zero or not. After processing 1-row_size and 1-col_size, we should process the first row, and then first col.
