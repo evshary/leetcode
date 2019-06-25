@@ -1,0 +1,1 @@
+1. Instead of passing string into recursive function, pass integer into recursive function is a better idea, since we don't need to process string.
