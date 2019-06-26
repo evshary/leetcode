@@ -1,0 +1,1 @@
+1. We should avoid to use strlen, since it will cost another O(N).
