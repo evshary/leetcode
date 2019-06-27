@@ -1,0 +1,1 @@
+1. The maximum size of char is 256, so we can use array of 256 elements as a hash table.
