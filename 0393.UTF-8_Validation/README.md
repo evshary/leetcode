@@ -1,0 +1,1 @@
+1. We should consider about the case 0x11111xxx, which is not valid.
