@@ -1,0 +1,1 @@
+1. I don't think I need to create a new recursive function. It can make the solution more precise.
