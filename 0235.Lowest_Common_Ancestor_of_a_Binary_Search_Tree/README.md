@@ -1,0 +1,1 @@
+1. I should read the problem carefullly. BST is really simple to solve the problem.
