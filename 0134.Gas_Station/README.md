@@ -1,0 +1,2 @@
+1. The key point is that we can check the existence of the answer by summing the difference between gas and cost.
+2. Then we need to find out the starting point which can ensure the circle is positive. If we run in brute-force way, it should be O(N^2), however we can reduce complexity to O(N).
