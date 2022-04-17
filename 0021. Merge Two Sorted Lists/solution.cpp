@@ -23,6 +23,24 @@ public:
             list2->next = mergeTwoLists(list1, list2->next);
             return list2;
         }
+#elif 0
+        ListNode *head = new ListNode(-1);  // using dummy node
+        ListNode *node = head;
+        while (list1 != nullptr && list2 != nullptr) {
+            if (list1->val <= list2->val) {
+                node->next = list1;
+                list1 = list1->next;
+            } else {
+                node->next = list2;
+                list2 = list2->next;
+            }
+            node = node->next;
+        }
+        if (list1 != nullptr)
+            node->next = list1;
+        if (list2 != nullptr)
+            node->next = list2;
+        return head->next;
 #else
         ListNode *merge_head = nullptr, *merge_end = nullptr, *nextptr;
         while (list1 || list2) {
