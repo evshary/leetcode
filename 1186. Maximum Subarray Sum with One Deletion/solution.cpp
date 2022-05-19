@@ -1,3 +1,19 @@
+#if 1 // space O(1)
+class Solution {
+public:
+    int maximumSum(vector<int>& arr) {
+        int max_w_del = arr[0];  // at most 1 delete
+        int max_wo_del = arr[0]; // no delete
+        int max_result = arr[0];
+        for (int i = 1; i < arr.size(); i++) {
+            max_w_del = max(max_w_del + arr[i], max_wo_del);
+            max_wo_del = max(arr[i], max_wo_del + arr[i]);
+            max_result = max({max_result, max_w_del, max_wo_del});
+        }
+        return max_result;
+    }
+};
+#else
 class Solution {
 public:
     int maximumSum(vector<int>& arr) {
@@ -22,3 +38,4 @@ public:
         return max_num;
     }
 };
+#endif
